@@ -1,6 +1,6 @@
 <?php
 
-$link = mysqli_connect("localhost", "root", "", "transporte");
+$link = mysqli_connect("localhost", "root", "", "transorte");
 if (!$link) {
     die("Connection failed: " . mysqli_connect_error());
 }

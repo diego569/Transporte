@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 13-05-2019 a las 21:00:32
--- Versión del servidor: 10.1.38-MariaDB
--- Versión de PHP: 7.3.4
+-- Tiempo de generación: 21-05-2019 a las 22:06:37
+-- Versión del servidor: 10.1.40-MariaDB
+-- Versión de PHP: 7.3.5
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `transporte`
+-- Base de datos: `transorte`
 --
 
 -- --------------------------------------------------------
@@ -99,23 +99,22 @@ INSERT INTO `pasajeros` (`dni`, `nombre`, `direccion`, `celular`, `fecha de nac.
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `usuarios`
+-- Estructura de tabla para la tabla `usuario`
 --
 
-CREATE TABLE `usuarios` (
-  `idusuarios` int(11) NOT NULL,
-  `nombre` varchar(45) DEFAULT NULL,
-  `contraseña` varchar(30) DEFAULT NULL,
-  `nombre de usuario` varchar(45) DEFAULT NULL,
-  `correo electronico` varchar(60) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+CREATE TABLE `usuario` (
+  `idusuario` int(10) NOT NULL,
+  `nombre` varchar(25) NOT NULL,
+  `clave` varchar(25) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Volcado de datos para la tabla `usuarios`
+-- Volcado de datos para la tabla `usuario`
 --
 
-INSERT INTO `usuarios` (`idusuarios`, `nombre`, `contraseña`, `nombre de usuario`, `correo electronico`) VALUES
-(1, 'ROMANI COTOHUANCA DIEGO ADOLFO', 'Estud1@nt3', 'diego569', 'milord569@gmail.com');
+INSERT INTO `usuario` (`idusuario`, `nombre`, `clave`) VALUES
+(1, 'medina', 'Cuenta1'),
+(2, 'prueva1', 'contra1');
 
 --
 -- Índices para tablas volcadas
@@ -140,20 +139,20 @@ ALTER TABLE `pasajeros`
   ADD PRIMARY KEY (`dni`);
 
 --
--- Indices de la tabla `usuarios`
+-- Indices de la tabla `usuario`
 --
-ALTER TABLE `usuarios`
-  ADD PRIMARY KEY (`idusuarios`);
+ALTER TABLE `usuario`
+  ADD PRIMARY KEY (`idusuario`);
 
 --
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
 --
--- AUTO_INCREMENT de la tabla `usuarios`
+-- AUTO_INCREMENT de la tabla `usuario`
 --
-ALTER TABLE `usuarios`
-  MODIFY `idusuarios` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+ALTER TABLE `usuario`
+  MODIFY `idusuario` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
