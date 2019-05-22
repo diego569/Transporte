@@ -114,7 +114,8 @@ CREATE TABLE `usuario` (
 
 INSERT INTO `usuario` (`idusuario`, `nombre`, `clave`) VALUES
 (1, 'medina', 'Cuenta1'),
-(2, 'prueva1', 'contra1');
+(2, 'prueva1', 'contra1'),
+(3, 'diego569', '73520253');
 
 --
 -- Índices para tablas volcadas
