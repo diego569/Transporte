@@ -1,0 +1,52 @@
+body{
+    background: url('../img/imga.jpg') center fixed;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.awd{
+    background: url('../img/imga.jpg') center fixed;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+a{
+	text-decoration: none;
+	color: white;	
+	transition: 0.2s;
+}
+a:hover{
+	transition: 1s;
+	color: gray;
+}
+.flogin{
+    margin-top: 10%; 
+    padding-left:10%; 
+    padding-right:10%;
+}
+.fmargin{
+    margin: 10%;
+}
+.fmarginb{
+    margin-bottom:10%;
+}
+.fmargint{
+    margin-top:10%;
+}
+.fpadding{
+    padding: 10%;
+}
+.fimaringt{
+    margin-top: 5%;
+}
+.fpaddingt{
+    padding-top: 4%;
+}

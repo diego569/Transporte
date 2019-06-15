@@ -1,35 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap/bootstrap.css">
-
+  <link rel="stylesheet" href="css/estilo.css">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	
 	<title>Identificarse</title>
-	<style>
-	body{background-color: #f5f5f5;}
-	</style>
+
 </head>
-<body>
-	<div class="container col-2" style="padding-top: 8%;">
+<body >
 
-		<form class="form-signin text-center" method="post" action="control.php">
+<div class="container flogin">
+    <div class="row">
+      <div class="rounded-lg col-lg-6 col-md-9 offset-lg-3 offset-md-2 shadow">
+          <form class="form-signin text-center fmargin" method="post" action="control.php" >
+            <div class="fmarginb">
+              <div class="h2 font-weight-bold">
+                SVP
+              </div> 
+            </div>
+            <h1 class="h3 mb-3 font-weight-normal">Identificarse</h1>
+            <input type="text" name="txtlogin" id="txtlogin" class="form-control" placeholder="Usuario" value="admin" required autofocus><br>
+            <input type="password" name="txtclave" id="txtclave" class="form-control" placeholder="Contraseña" value="root" required> <br>
+            <button class="btn btn-lg btn-outline-light btn-block" type="submit">Ingresar</button>
+          </form>
+      </div>
+    </div>
+  </div>
 
-			<img class="mb-4" src="img/transporte2.svg" alt="logo" width="200" height="200" style="margin-buttom: -10px;">
+  <script src="./js/script.js"></script>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/bootstrap.bundle.js"></script>
 
-			<h1 class="h3 mb-3 font-weight-normal">Registrese</h1>
-
-			<input type="text" name="txtlogin" id="txtlogin" class="form-control" placeholder="Usuario" required autofocus><br>
-
-			<input type="password" name="txtclave" id="txtclave" class="form-control" placeholder="Contraseña" id="" required> <br>
-
-			<button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
-			
-		</form>
-	</div>
-
-	<script src="js/jquery.js"></script>
 </body>
 </html>

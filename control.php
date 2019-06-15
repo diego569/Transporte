@@ -6,7 +6,7 @@
     $login = $_POST['txtlogin'];
     $clave = $_POST['txtclave'];
 
-    $sql = "SELECT * from usuario where nombre=('$login') and clave=('$clave')";
+    $sql = "SELECT * from usuario where login=('$login') and clave=MD5('$clave')";
 
     $result = $conexion->query($sql);
 
