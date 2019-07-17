@@ -5,13 +5,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap/bootstrap.css">
   <link rel="stylesheet" href="css/estilo.css">
-  <script language="javascript" type="text/javascript" src="ajax.js"></script>
+  <style type="text/css">
+    a, div.navbar-brand{color: white;cursor: pointer;}
+  </style>
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
 	<title>SVP</title>
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg shadow p-2 mb-5 sticky-top awd">
+  <nav class="navbar navbar-expand-lg shadow mb-5 sticky-top" style="background: black;">
     <div class="container">
       <div class="navbar-brand">
         <div class="d-inline h2 font-weight-bold">
@@ -19,11 +22,12 @@
         </div>
         <p class="d-inline"><abbr title="Version 1.0" class="initialism">v1.0</abbr></p>
       </div>
-      <div class="nav-item">
-		    <a class="nav-link  btn btn-outline-light" role="button" href="login.php">Ingresar</a>
-      </div>
+      <a class="nav-link btn btn-outline-light" role="button" href="login.php">
+        <span class='fas fa-user mr-sm-2' title='Crear' style='cursor:pointer;'></span>Ingresar</a>
     </div>
   </nav>
+
+
 
   <div class="container">
     <div class="row">
@@ -53,7 +57,7 @@
         </div>
       </div>
       <div class="col-12 col-md-6">
-        <div class="container fmargint coloee">
+        <div class="container">
           <div class="row">
             <div class="rounded-lg shadow fpadding">
               <div>
@@ -70,23 +74,21 @@
     </div>
   </div>
 
-  </div class="containser">
-    <div class="fimaringt">
-      <footer class="text-center" >
-        <p>
-          <?php
-            $hoy = date("Y");
-            echo $hoy;
-          ?> 
-          - Desarrollado por 
-          <a href="https://www.github.com/diego569/transporte" class="text-reset font-weight-bold">
-            GRUPO TRANSPORTE
-          </a>.
-        </p>
-      </footer>
-    </div>
-  </div>
 
+  <footer class="footer">
+    <hr>
+    <div class="text-center">
+            <p>
+              <?php $hoy = date("Y"); echo $hoy; ?> 
+              - Desarrollado por 
+              <a href="https://www.github.com/diego569/transporte" target="_blank" class="text-reset font-weight-bold" >
+                GRUPO TRANSPORTE
+              </a>.
+            </p>
+    </div>
+  </footer>
+  
+  <script src="./js/fontawesome.js"></script>
   <script src="./js/script.js"></script>
   <script src="./js/jquery.min.js"></script>
   <script src="./js/bootstrap.bundle.js"></script>
