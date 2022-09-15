@@ -1,0 +1,153 @@
+{
+  "AM": {
+    "name": "AMAZONAS",
+    "capital": "Chachapoyas",
+    "latitude": -6.2294,
+    "longitude": -77.8728
+  },
+  "AN": {
+    "name": "ANCASH",
+    "capital": "Huaraz",
+    "latitude": -9.5297,
+    "longitude": -77.5292
+  },
+  "AP": {
+    "name": "APURIMAC",
+    "capital": "Abancay",
+    "latitude": -13.6289,
+    "longitude": -72.8861
+  },
+  "AR": {
+    "name": "AREQUIPA",
+    "capital": "Arequipa",
+    "latitude": -16.3933,
+    "longitude": -71.5289
+  },
+  "AY": {
+    "name": "AYACUCHO",
+    "capital": "Ayacucho",
+    "latitude": -13.1603,
+    "longitude": -74.2253
+  },
+  "CJ": {
+    "name": "CAJAMARCA",
+    "capital": "Cajamarca",
+    "latitude": -7.1547,
+    "longitude": -78.5108
+  },
+  "CA": {
+    "name": "CALLAO",
+    "capital": "Callao",
+    "latitude": -12.0631,
+    "longitude": -77.1469
+  },
+  "CU": {
+    "name": "CUSCO",
+    "capital": "Cusco",
+    "latitude": -13.5192,
+    "longitude": -71.9767
+  },
+  "HV": {
+    "name": "HUANCAVELICA",
+    "capital": "Huancavelica",
+    "latitude": -12.7869,
+    "longitude": -74.9714
+  },
+  "HC": {
+    "name": "HUANUCO",
+    "capital": "Huánuco",
+    "latitude": -9.93,
+    "longitude": -76.2397
+  },
+  "IC": {
+    "name": "ICA",
+    "capital": "Ica",
+    "latitude": -14.0636,
+    "longitude": -75.7292
+  },
+  "JU": {
+    "name": "JUNIN",
+    "capital": "Huancayo",
+    "latitude": -12.0708,
+    "longitude": -75.2089
+  },
+  "LL": {
+    "name": "LA LIBERTAD",
+    "capital": "Trujillo",
+    "latitude": -8.1,
+    "longitude": -79.0306
+  },
+  "LA": {
+    "name": "LAMBAYEQUE",
+    "capital": "Chiclayo",
+    "latitude": -6.7669,
+    "longitude": -79.8506
+  },
+  "LI": {
+    "name": "LIMA",
+    "capital": "Lima",
+    "latitude": -12.0453,
+    "longitude": -77.0308
+  },
+  "LO": {
+    "name": "LORETO",
+    "capital": "Iquitos",
+    "latitude": -3.7481,
+    "longitude": -73.2442
+  },
+  "MD": {
+    "name": "MADRE DE DIOS",
+    "capital": "Puerto Maldonado",
+    "latitude": -12.5936,
+    "longitude": -69.1767
+  },
+  "MO": {
+    "name": "MOQUEGUA",
+    "capital": "Moquegua",
+    "latitude": -17.1942,
+    "longitude": -70.9333
+  },
+  "PA": {
+    "name": "PASCO",
+    "capital": "Cerro de Pasco",
+    "latitude": -10.6825,
+    "longitude": -76.2569
+  },
+  "PI": {
+    "name": "PIURA",
+    "capital": "Piura",
+    "latitude": -5.1525,
+    "longitude": -80.6578
+  },
+  "PU": {
+    "name": "PUNO",
+    "capital": "Puno",
+    "latitude": -15.8403,
+    "longitude": -70.0281
+  },
+  "SM": {
+    "name": "SAN MARTIN",
+    "capital": "Moyobamba",
+    "latitude": -6.0347,
+    "longitude": -76.9742
+  },
+  "TA": {
+    "name": "TACNA",
+    "capital": "Tacna",
+    "latitude": -18.0019,
+    "longitude": -70.2519
+  },
+  "TU": {
+    "name": "TUMBES",
+    "capital": "Tumbes",
+    "superficie": 4668.5,
+    "latitude": -3.5711,
+    "longitude": -80.4592
+  },
+  "UC": {
+    "name": "UCAYALI",
+    "capital": "Pucallpa",
+    "latitude": -8.3681,
+    "longitude": -74.5433
+  }
+}
