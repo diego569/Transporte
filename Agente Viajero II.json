@@ -1,0 +1,153 @@
+[
+  {
+    "departamento": "AMAZONAS",
+    "capital": "Chachapoyas",
+    "latitude": -6.2294,
+    "longitude": -77.8728
+  },
+  {
+    "departamento": "ANCASH",
+    "capital": "Huaraz",
+    "latitude": -9.5297,
+    "longitude": -77.5292
+  },
+  {
+    "departamento": "APURIMAC",
+    "capital": "Abancay",
+    "latitude": -13.6289,
+    "longitude": -72.8861
+  },
+  {
+    "departamento": "AREQUIPA",
+    "capital": "Arequipa",
+    "latitude": -16.3933,
+    "longitude": -71.5289
+  },
+  {
+    "departamento": "AYACUCHO",
+    "capital": "Ayacucho",
+    "latitude": -13.1603,
+    "longitude": -74.2253
+  },
+  {
+    "departamento": "CAJAMARCA",
+    "capital": "Cajamarca",
+    "latitude": -7.1547,
+    "longitude": -78.5108
+  },
+  {
+    "departamento": "CALLAO",
+    "capital": "Callao",
+    "latitude": -12.0631,
+    "longitude": -77.1469
+  },
+  {
+    "departamento": "CUSCO",
+    "capital": "Cusco",
+    "latitude": -13.5192,
+    "longitude": -71.9767
+  },
+  {
+    "departamento": "HUANCAVELICA",
+    "capital": "Huancavelica",
+    "latitude": -12.7869,
+    "longitude": -74.9714
+  },
+  {
+    "departamento": "HUANUCO",
+    "capital": "Huánuco",
+    "latitude": -9.93,
+    "longitude": -76.2397
+  },
+  {
+    "departamento": "ICA",
+    "capital": "Ica",
+    "latitude": -14.0636,
+    "longitude": -75.7292
+  },
+  {
+    "departamento": "JUNIN",
+    "capital": "Huancayo",
+    "latitude": -12.0708,
+    "longitude": -75.2089
+  },
+  {
+    "departamento": "LA LIBERTAD",
+    "capital": "Trujillo",
+    "latitude": -8.1,
+    "longitude": -79.0306
+  },
+  {
+    "departamento": "LAMBAYEQUE",
+    "capital": "Chiclayo",
+    "latitude": -6.7669,
+    "longitude": -79.8506
+  },
+  {
+    "departamento": "LIMA",
+    "capital": "Lima",
+    "latitude": -12.0453,
+    "longitude": -77.0308
+  },
+  {
+    "departamento": "LORETO",
+    "capital": "Iquitos",
+    "latitude": -3.7481,
+    "longitude": -73.2442
+  },
+  {
+    "departamento": "MADRE DE DIOS",
+    "capital": "Puerto Maldonado",
+    "latitude": -12.5936,
+    "longitude": -69.1767
+  },
+  {
+    "departamento": "MOQUEGUA",
+    "capital": "Moquegua",
+    "latitude": -17.1942,
+    "longitude": -70.9333
+  },
+  {
+    "departamento": "PASCO",
+    "capital": "Cerro de Pasco",
+    "latitude": -10.6825,
+    "longitude": -76.2569
+  },
+  {
+    "departamento": "PIURA",
+    "capital": "Piura",
+    "latitude": -5.1525,
+    "longitude": -80.6578
+  },
+  {
+    "departamento": "PUNO",
+    "capital": "Puno",
+    "latitude": -15.8403,
+    "longitude": -70.0281
+  },
+  {
+    "departamento": "SAN MARTIN",
+    "capital": "Moyobamba",
+    "latitude": -6.0347,
+    "longitude": -76.9742
+  },
+  {
+    "departamento": "TACNA",
+    "capital": "Tacna",
+    "latitude": -18.0019,
+    "longitude": -70.2519
+  },
+  {
+    "departamento": "TUMBES",
+    "capital": "Tumbes",
+    "superficie": 4668.5,
+    "latitude": -3.5711,
+    "longitude": -80.4592
+  },
+  {
+    "departamento": "UCAYALI",
+    "capital": "Pucallpa",
+    "latitude": -8.3681,
+    "longitude": -74.5433
+  }
+]
